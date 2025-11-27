@@ -1,10 +1,8 @@
 "use strict"
-let time
+var time
 console.log("Переменная создана. Значение:", time)
-const speed = prompt("Введите скорость КМ/ч")
-speed = Number(speed)
-const distance = prompt("Введите расстояние КМ")
-distance = Number(distance)
+let speed = Number(prompt("Введите скорость КМ/ч"))
+const distance = Number(prompt("Введите расстояние КМ"))
 console.log("Поездка началась.")
 console.log(`осталось минут: ${(distance/speed)*60}`)
 console.log(`Скорость:  ${speed} км/ч`)
